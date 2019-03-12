@@ -66,7 +66,7 @@ CALL %gigwadir%stopGigwa.bat
 netstat -o -n -a | find "LISTENING" | find ":%tomcatport% " > NUL
 ECHO "Waiting Gigwa Shutdown to Restart!"
 if "%ERRORLEVEL%" equ "0" (
-  SLEEP 10
+  PING -n 5 127.0.0.1 >nul
   GOTO :WAITINGPORT
 )
 
