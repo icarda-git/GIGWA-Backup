@@ -8,7 +8,7 @@ Setup instructions:
 
 * Finally create a scheduled task in windows to run the batch file on a schedule, remember to choose “Run whether user is logged on or not” otherwise it will fail.
 
-_ **Notification:** This backup/restore batch scripts solution has been developed and tested for the bundled Gigwa archive (i.e. both of the Apache Tomcat and MongoDB are running on the same server)._
+_**Notification:** This backup/restore batch scripts solution has been developed and tested for the bundled Gigwa archive (i.e. both of the Apache Tomcat and MongoDB are running on the same server)._
 
 ## Copyright (C) 2018-2019, ICARDA.
 This program is free software provided "AS IS" and comes with ABSOLUTELY NO WARRANTY. It is made available under the terms of the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
