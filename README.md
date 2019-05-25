@@ -1,4 +1,4 @@
-# GIGWA Backup/Restore on Windows Server
+# GIGWA Backup/Restore for Windows Server
 
 Setup instructions:
 
